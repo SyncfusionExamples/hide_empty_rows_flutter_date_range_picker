@@ -1,4 +1,4 @@
-package com.example.flutter_pickerclip
+package com.example.datepickerclip
 
 import io.flutter.embedding.android.FlutterActivity
 

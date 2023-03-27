@@ -52,7 +52,7 @@ class _ClipDateRangePickerState extends State<ClipDateRangePicker> {
                         DateTime.sunday ||
                         args.visibleDateRange.endDate!.weekday ==
                             DateTime.monday)) {
-                  SchedulerBinding.instance!.addPostFrameCallback((_) {
+                  SchedulerBinding.instance.addPostFrameCallback((_) {
                     setState(() {
                       weeksInMonth = 6;
                     });
